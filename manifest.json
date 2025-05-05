@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Authorized Red Team Extension - Advanced APT Simulation",
+    "version": "3.0",
+    "description": "Chrome extension for red team simulation in an isolated lab with full authorization.",
+    "permissions": [
+      "cookies",
+      "history",
+      "tabs",
+      "clipboardRead",
+      "storage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Diagnostics"
+    }
+  }
